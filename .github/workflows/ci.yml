@@ -23,4 +23,4 @@ jobs:
         run: npm ci
 
       - name: Run tests
-        run: echo "No tests yet" && exit 0
+        run: npm run test
